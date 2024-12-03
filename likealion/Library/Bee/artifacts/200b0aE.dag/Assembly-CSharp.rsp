@@ -356,6 +356,8 @@
 -analyzer:"Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll"
 -analyzer:"Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/unityplastic.dll"
 "Assets/Script/DataStructComp.cs"
+"Assets/Script/Game.cs"
+"Assets/Script/ListExample.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -5,18 +5,25 @@ using UnityEngine;
 
 public class DataStructComp : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        Int32 intValue = 0; // 자료형 -21억 ~ 21억
-        UInt32 uintValue = 0; // 0~42억
-        
-        Int64 longValue = 0; //
-    }
+    private int[] playerScores = new int[5];
 
-    // Update is called once per frame
-    void Update()
+    private string[] itemNames = { "검", "방패", "포션", "활", "마법서" };
+
+    public GameObject[] enemyPrefabs;
+
+    private int[,] mapTiles = new int[10, 10];
+
+    private void Start()
     {
-        
+        for (var i = 0; i < playerScores.Length; i++)
+        {
+            playerScores[i] = i;
+        }
+
+        for (var i = 0; i < playerScores.Length; i++)
+        {
+            Debug.Log(playerScores[i]);
+        }
     }
 }
+
